@@ -16,4 +16,7 @@ public class GithubActionsApplication {
 	
 	@GetMapping("/hi")
 	public String sayHi() {return "hi";}
+	
+	@GetMapping("/hello")
+	public String sayHello() {return "hello";}
 }
